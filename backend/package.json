@@ -1,0 +1,12 @@
+{
+  "name": "11semana",
+  "version": "1.0.0",
+  "description": "11 semana da Omnistack",
+  "main": "index.js",
+  "repository": "https://github.com/carolinagiorno/11semana/",
+  "author": "carolinagiorno <chagiorno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
