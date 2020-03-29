@@ -13,6 +13,7 @@ module.exports = {
     async create(request, response) {
         //rundown detalhado para que não venham mais informações que o necessário
         const { name, email, whatsapp, city, uf } = request.body;
+        console.log({name});
 
         //gerando id (4 bytes, string em hexadecimal)
         const id = crypto.randomBytes(4).toString('HEX');
@@ -26,6 +27,7 @@ module.exports = {
             city,
             uf,
         });
+        console.log({name});
 
         return response.json({ id });
     }
